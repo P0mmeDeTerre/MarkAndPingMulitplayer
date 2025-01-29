@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/7596dfc0-5b06-4b92-b7aa-8286927fac81)# MarkAndPingMulitplayer
+# MarkAndPingMulitplayer
 
 <details>
    <summary>Mark Team component</summary>
