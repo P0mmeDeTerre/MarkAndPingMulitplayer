@@ -1,4 +1,4 @@
-# MarkAndPingMulitplayer
+![image](https://github.com/user-attachments/assets/7596dfc0-5b06-4b92-b7aa-8286927fac81)# MarkAndPingMulitplayer
 
 
 ## Mark Team Component
@@ -23,6 +23,11 @@ To add a team in your `MarkTeamComponent` you can use the `Add Team` node from t
 
 Icons is an array of textures. This is used when a player from this team pings something. Each player on a team can have their own icon to help differentiate them from one another. This is optional, but you need to provide an array to this function. If no icons are set or not enough icons are provided for the members who need them (e.g., if you set 2 icons but have 3 players on the team), the third player will use the default icon set in `PingComponet`.
 
+### Remove Team
+Remove a team from `Mark Team Component`
+
+* `Team Name` : Team name
+
 ### Add Member
 To add a member to a specific team you can use the `Add Member` node
 ![image](https://github.com/user-attachments/assets/351720b9-08b9-4409-9559-7d31dad2b36d)
@@ -39,5 +44,35 @@ To remove a member from a team, the function will automatically determine which 
 ![image](https://github.com/user-attachments/assets/4e735be1-c01f-42d1-a1f2-aeaeb7171712)
 
 * `Member` : A reference to the `PlayerController` belonging to the member
+
+![image](https://github.com/user-attachments/assets/1c6ec2ea-66a3-48b7-b846-0b764d336a5a)
+
+## Ping Component
+The `PingComponent` must be placed in the `PlayerController` of the player.
+
+![image](https://github.com/user-attachments/assets/6e9847d1-c759-42e6-9215-d8b9a5530549)
+
+The only settings of the `PingComponent` is the `IconMaterial`
+![image](https://github.com/user-attachments/assets/9fab236b-e0b6-4a44-aa26-89d7b54a4707)
+
+You can replace the `IconMaterial` by your own one but you need to keep those settings
+This material is only used for your own ping. If you want to change all material, you also need to change it on the `MarkComponent`
+
+ * `Texture` : Texture Parameter
+ * `Color` : Vector Parameter
+
+## Mark Component
+This component is used to send a mark/ping to the server.
+
+### Settings
+
+![image](https://github.com/user-attachments/assets/83aea200-d6bc-40fc-99e2-ea021fc5266e)
+
+* `Ping Material Instance` : The material instance for other player's ping
+  *  * `Texture` : Texture Parameter
+  *  * `Color` : Vector Parameter
+
+
+
 
   
