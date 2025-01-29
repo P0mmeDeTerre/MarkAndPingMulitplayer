@@ -88,4 +88,36 @@ This component is used to send a mark/ping to the server.
    * `Update Time` : Time interval for updating the widget.
 
 
-  
+### Events
+
+![image](https://github.com/user-attachments/assets/d1fb1ef4-ae9c-4ff2-aec4-b9a21d36c0b2)
+
+* `OnTeamUpdate` : Called when the server update the icons member
+* `OnPing` : Called when the player ping
+
+### Functions
+
+#### `GetWidgetComponent`
+Return the `WidgetComponent` of the `MarkComponent` (not from the `PlayerController`)
+
+#### `GetLocalPingWidget`
+Return the widget from the `PlayerController`
+
+#### `GetPingMaterialInstance`
+Return the `MaterialInstance` of the ping
+
+#### `GetPingColor`
+Return the ping color
+
+#### `IsTeamPingColorEnabled`
+Return UseTeamPingColor
+
+#### `IsTeamMarkColorEnabled`
+Return UseTeamMarkColor
+
+#### `UpdatePingWidgetTeamColor`
+Set new value for `UseTeamPingColor` and force update on pings
+
+#### `UpdatePingWidgetTeamColor`
+
+Set new value for `UseTeamMarkColor` and force update on marks
