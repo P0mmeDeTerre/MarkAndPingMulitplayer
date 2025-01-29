@@ -5,15 +5,18 @@
    
 A `Mark Team Component` must be used in a `GameMode`
 To add the component, click the `Add` button on the `Components` window in your gamemode.
+
 ![image](https://github.com/user-attachments/assets/c9a2a593-2708-4d38-8bba-7d69868e2ff9)
 
 and search for `MarkTeam`
+
 ![image](https://github.com/user-attachments/assets/3d44b3b9-bd4d-4944-93a7-fc4fcf30c9f6)
 
 A member must be in only one team.
 
 ### Add Team
 To add a team in your `MarkTeamComponent` you can use the `Add Team` node from the component
+
 ![image](https://github.com/user-attachments/assets/845a7638-2b95-4a1c-a103-a7e1437ff24e)
 
 * `Name` : Team name
@@ -30,6 +33,7 @@ Remove a team from `Mark Team Component`
 
 ### Add Member
 To add a member to a specific team you can use the `Add Member` node
+
 ![image](https://github.com/user-attachments/assets/351720b9-08b9-4409-9559-7d31dad2b36d)
 
 * `Team Name` : Team name
@@ -57,6 +61,7 @@ To remove a member from a team, the function will automatically determine which 
    ![image](https://github.com/user-attachments/assets/6e9847d1-c759-42e6-9215-d8b9a5530549)
    
    The only settings of the `PingComponent` is the `IconMaterial`
+   
    ![image](https://github.com/user-attachments/assets/9fab236b-e0b6-4a44-aa26-89d7b54a4707)
    
    You can replace the `IconMaterial` by your own one but you need to keep those settings
@@ -148,7 +153,9 @@ Update settings on player controller's widget and all other ping widgets
 
 </details>
 
-## Marked Component
+<details>
+   <summary>Marked Component</summary>
+
 Use this component on actors that you want to mark.
 
 ### Settings
@@ -235,4 +242,5 @@ Return the widget of the markedComponent
 #### `GetMarkWidgetSettings` 
 Return settings
 
+</details>
 
