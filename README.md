@@ -129,3 +129,26 @@ Update settings on player controller's widget and all other ping widgets
    * `Is Text Visible` : If true, the widget will display a text below the icon showing the distance in meters.
    * `Deciaml Places` : Number of decimal places to display (e.g. 2 will display '3.87 M').
    * `Update Time` : Time interval for updating the widget.
+
+
+## Marked Component
+Use this component on actors that you want to mark.
+
+### Settings
+![image](https://github.com/user-attachments/assets/34975c42-f32b-4801-b7ab-65b549f886d9)
+
+* `Icon` : Texture of your icon
+* `Lifetime` : Lifetime of the mark
+* `Mark Color` : Color of the mark
+* `Offset` : Offset of the widget
+* `Texture Size` : Size of the texture (icon) in the mark material
+* `Mark Sound` : sound played when actor is marked
+* `Ignore Itself` : If true and controlling the marked actor, the widget will not be shown. (e.g., if you are marked while playing as the actor who gets marked, you will not see the widget).
+* * `Mark Widget Settings` : Settings of the ping widget
+   * `Offset` : Offset of the widget (default is 0.5 0.5 (centered))
+   * `Icon Size` : Size of the icon
+   * `Space` : Space between icon and text
+   * `Is Text Visible` : If true, the widget will display a text below the icon showing the distance in meters.
+   * `Deciaml Places` : Number of decimal places to display (e.g. 2 will display '3.87 M').
+   * `Update Time` : Time interval for updating the widget.
+
