@@ -289,12 +289,65 @@ Return settings
    ![image](https://github.com/user-attachments/assets/7a5c8824-19db-4c60-a122-421db2fffde7)
 
 
+   #### Event
+   `OnPingEvent` : Called when ping or mark.
+
+   ![image](https://github.com/user-attachments/assets/2def8e75-aee0-4f8c-97d5-7d831f2be0a5)
+
+
+</details>
    
 
-   
-   
+<details>
+   <summary>Global Function</summary>   
+   All of these function can be called in any blueprint.
 
+   ## `UpdateTeam`
 
+   ## `GetTeams`
+
+   ## `GetMyTeam`
+
+   ## `GetMemberIcon`
+
+   ## `GetMyIcon`
    
+---
+Server Only 
+
+   ## `ClearWidgets`
+   Clear widgets of all player
+
+   * `Type` : MarkType : Ping, Mark or Both
+
+   ## `ServerPingOnTeam`
+   Ping from any team to any team. the ping will be visible for all player of the choosen team (TeamName)
+
+   *`Location` : Ping location
+   *`Lifetime` : Ping lifetime
+   *`PlayerId` : Player Id 
+   *`FromTeamName` : Ping from team name
+   *`TeamName` : Team name (on wich team you want the ping to be visible)
+
+   ## `ServerRemovePingOnTeam`
+   Remove ping from any team to any team. the ping will be hidden for all player of the choosen team (TeamName)
+
+   *`PlayerId` : Player Id 
+   *`FromTeamName` : Ping from team name
+   *`TeamName` : Team name (on wich team you want the ping to be hidden)
+
+   ## `ServerPingOnTeam`
+   Ping from any team to all teams.
+
+   *`Location` : Ping location
+   *`Lifetime` : Ping lifetime
+   *`PlayerId` : Player Id 
+   *`FromTeamName` : Ping from team name
+
+   ## `ServerRemovePingOnTeam`
+   Remove ping from any team to all teams.
+
+   *`PlayerId` : Player Id 
+   *`FromTeamName` : Ping from team name
 
 </details>
