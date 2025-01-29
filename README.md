@@ -119,5 +119,13 @@ Return UseTeamMarkColor
 Set new value for `UseTeamPingColor` and force update on pings
 
 #### `UpdatePingWidgetTeamColor`
-
 Set new value for `UseTeamMarkColor` and force update on marks
+
+#### `UpdateSettings`
+Update settings on player controller's widget and all other ping widgets
+   * `Offset` : Offset of the widget
+   * `Icon Size` : Size of the icon
+   * `Space` : Space between icon and text
+   * `Is Text Visible` : If true, the widget will display a text below the icon showing the distance in meters.
+   * `Deciaml Places` : Number of decimal places to display (e.g. 2 will display '3.87 M').
+   * `Update Time` : Time interval for updating the widget.
