@@ -97,6 +97,14 @@ This component is used to send a mark/ping to the server.
 
 ### Functions
 
+#### `Ping`
+![image](https://github.com/user-attachments/assets/51d231f8-b0d5-45ca-93c6-655e763f0c55)
+
+Sends a ping request to the server. If the line trace hit results detect a `MarkedComponent`, the ping will turn into a mark.
+
+ * `Follow Actor` : Follows the actor who is marked (no effect if it’s a ping).
+
+
 #### `GetWidgetComponent`
 Return the `WidgetComponent` of the `MarkComponent` (not from the `PlayerController`)
 
@@ -151,4 +159,71 @@ Use this component on actors that you want to mark.
    * `Is Text Visible` : If true, the widget will display a text below the icon showing the distance in meters.
    * `Deciaml Places` : Number of decimal places to display (e.g. 2 will display '3.87 M').
    * `Update Time` : Time interval for updating the widget.
+
+
+
+### Event
+* `OnMark` : Called when the actor is marked
+
+### Functions
+
+#### ``
+#### `GetIcon`
+Return the icon.
+
+#### `SetIcon`
+Set a new icon
+
+#### `GetLifetime`
+Return the lifetime
+
+#### `SetLifetime`
+Set a new lifetime
+
+#### `GetMarkColor`
+Return the mark color
+
+#### `SetMarkColor`
+Set a new mark color
+
+#### `GetIgnoreItself`
+Return GetIgnoreItself
+
+#### `SetIgnoreItself`
+Set IgnoreItself
+
+#### `GetOffset`
+Return the offset
+
+#### `SetOffset`
+Set a new offset
+
+#### `GetTextureSize`
+Return the texture size
+
+#### `SetTextureSize`
+Set a new texture size
+
+#### `GetMarkSound`
+Return the mark sound
+
+#### `SetMarkSound`
+Set a new mark sound
+
+#### `UpdateSettings` 
+Update Settings
+
+* `Offset` : Offset of the widget
+* `Icon Size` : Size of the icon
+* `Space` : Space between icon and text
+* `Is Text Visible` : If true, the widget will display a text below the icon showing the distance in meters.
+* `Deciaml Places` : Number of decimal places to display (e.g. 2 will display '3.87 M').
+* `Update Time` : Time interval for updating the widget.
+
+#### `GetMarkWidget` 
+Return the widget of the markedComponent
+
+#### `GetMarkWidgetSettings` 
+Return settings
+
 
