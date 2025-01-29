@@ -2,9 +2,7 @@
 
 <details>
    <summary>Mark Team component</summary>
-
-
-
+   
 A `Mark Team Component` must be used in a `GameMode`
 To add the component, click the `Add` button on the `Components` window in your gamemode.
 ![image](https://github.com/user-attachments/assets/c9a2a593-2708-4d38-8bba-7d69868e2ff9)
@@ -49,23 +47,29 @@ To remove a member from a team, the function will automatically determine which 
 
 ![image](https://github.com/user-attachments/assets/1c6ec2ea-66a3-48b7-b846-0b764d336a5a)
 
-## Ping Component
-The `PingComponent` must be placed in the `PlayerController` of the player.
-
-![image](https://github.com/user-attachments/assets/6e9847d1-c759-42e6-9215-d8b9a5530549)
-
-The only settings of the `PingComponent` is the `IconMaterial`
-![image](https://github.com/user-attachments/assets/9fab236b-e0b6-4a44-aa26-89d7b54a4707)
-
-You can replace the `IconMaterial` by your own one but you need to keep those settings
-This material is only used for your own ping. If you want to change all material, you also need to change it on the `MarkComponent`
-
- * `Texture` : Texture Parameter
- * `Color` : Vector Parameter
-
 </details>
 
-## Mark Component
+<details>
+   <summary>Ping Component</summary>
+
+   The `PingComponent` must be placed in the `PlayerController` of the player.
+
+   ![image](https://github.com/user-attachments/assets/6e9847d1-c759-42e6-9215-d8b9a5530549)
+   
+   The only settings of the `PingComponent` is the `IconMaterial`
+   ![image](https://github.com/user-attachments/assets/9fab236b-e0b6-4a44-aa26-89d7b54a4707)
+   
+   You can replace the `IconMaterial` by your own one but you need to keep those settings
+   This material is only used for your own ping. If you want to change all material, you also need to change it on the `MarkComponent`
+   
+    * `Texture` : Texture Parameter
+    * `Color` : Vector Parameter
+      
+   </details>
+
+
+<details>
+   <summary>Mark Component</summary>
 This component is used to send a mark/ping to the server.
 
 ### Settings
@@ -142,6 +146,7 @@ Update settings on player controller's widget and all other ping widgets
    * `Deciaml Places` : Number of decimal places to display (e.g. 2 will display '3.87 M').
    * `Update Time` : Time interval for updating the widget.
 
+</details>
 
 ## Marked Component
 Use this component on actors that you want to mark.
