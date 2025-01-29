@@ -357,8 +357,8 @@ Server Only
    *`Color` : Color of the mark
    *`TeamName` : Team name (the team on which you want the mark to be visible)
 
-      ## `ServerRemoveMarkOnTeam`
-  Remove a marked actor on a specific team.
+   ## `ServerRemoveMarkOnTeam`
+   Remove a marked actor on a specific team.
 
    *`Actor` : Actor with a `MarkedComponent`
    *`TeamName` : Team name (the team on which you want the mark to be hidden)
