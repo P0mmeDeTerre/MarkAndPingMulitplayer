@@ -72,7 +72,20 @@ This component is used to send a mark/ping to the server.
     * `Texture` : Texture Parameter
     * `Color` : Vector Parameter
 
-
+* `Ping Color` : Color of the ping (only if `Use Team Ping Color` is set to false).
+* `Cooldown` : Cooldown between to ping/mark.
+* `Length` : Length of line trace (starting from your camera).
+* `Debug Draw Line` : Show a debug line trace (only on the server).
+* `Use Team Ping Color` : If set to true, the ping will use the color of the team.
+* `Use Team Mark Color` : If set to true, the mark will use the color of the team.
+* `Ping Sound` : Play a sound when ping.
+* `Ping Widget Settings` : Settings of the ping widget
+   * `Offset` : Offset of the widget (default is 0.5 0.5 (centered))
+   * `Icon Size` : Size of the icon
+   * `Space` : Space between icon and text
+   * `Is Text Visible` : If true, the widget will display a text below the icon showing the distance in meters.
+   * `Deciaml Places` : Number of decimal places to display (e.g. 2 will display '3.87 M').
+   * `Update Time` : Time interval for updating the widget.
 
 
   
