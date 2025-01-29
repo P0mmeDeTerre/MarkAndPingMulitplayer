@@ -373,5 +373,9 @@ Server Only
    Remove a marked actor on all teams
 
    *`Actor` : Actor with a `MarkedComponent`
+
+   ## `UpdateMembersIcon`
+   Sets all icons for the members of each team. This function must be called when all players have joined the game and have been added to a team.
+   You can call this function at any time if you want to update the players' icons.
    
 </details>
