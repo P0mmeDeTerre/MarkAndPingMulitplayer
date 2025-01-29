@@ -246,6 +246,7 @@ Return settings
 
 <details>
    <summary>Mark User Widget</summary>
+   
    You can change the user widget in `Project Settings`
    ![image](https://github.com/user-attachments/assets/5420d24f-cdaf-4f9d-b372-3a37ec1787e7)
 
