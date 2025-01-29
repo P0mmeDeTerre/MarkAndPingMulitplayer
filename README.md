@@ -244,3 +244,56 @@ Return settings
 
 </details>
 
+<details>
+   <summary>Mark User Widget</summary>
+   You can change the user widget in `Project Settings`
+   ![image](https://github.com/user-attachments/assets/5420d24f-cdaf-4f9d-b372-3a37ec1787e7)
+
+   This widget is used in both Ping and Mark widgets
+
+
+   ### Create your own
+
+   Create a new blueprint class with `MarkUserWidget` as parent
+   
+   ![image](https://github.com/user-attachments/assets/08875180-ebc0-444a-8ba3-a905c763d92f)
+
+   Add all elements of the based widget in your new widget with correct names
+
+   ![image](https://github.com/user-attachments/assets/34a30a21-c9f3-4eaf-858d-de66322b3bf1)
+
+   Widget --> Name
+   
+   * Canvas Panel --> Canvas
+      * Vertical Box --> MarkVecticalBox
+         *  Image --> MarkIcon
+         *  Spacer --> MarkSpacer
+         *  TextBlock --> MarkText
+       
+
+   Vectical Box default settings
+
+   ![image](https://github.com/user-attachments/assets/d93ed442-8be4-46a6-a7be-49d6ca0fd74a)
+
+   Image default settings
+
+   ![image](https://github.com/user-attachments/assets/deb1fde9-0461-4267-809c-1755fcbb5ea3)
+
+   Spacer default settings
+
+   ![image](https://github.com/user-attachments/assets/33a1561f-d375-4f7d-968b-7761c704321d)
+
+   TextBlock default settings
+
+   ![image](https://github.com/user-attachments/assets/7a5c8824-19db-4c60-a122-421db2fffde7)
+
+
+   
+
+   
+   
+
+
+   
+
+</details>
