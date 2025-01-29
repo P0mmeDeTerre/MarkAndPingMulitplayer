@@ -69,8 +69,8 @@ This component is used to send a mark/ping to the server.
 ![image](https://github.com/user-attachments/assets/83aea200-d6bc-40fc-99e2-ea021fc5266e)
 
 * `Ping Material Instance` : The material instance for other player's ping
-  *  * `Texture` : Texture Parameter
-  *  * `Color` : Vector Parameter
+    * `Texture` : Texture Parameter
+    * `Color` : Vector Parameter
 
 
 
