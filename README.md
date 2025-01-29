@@ -302,15 +302,22 @@ Return settings
    <summary>Global Function</summary>   
    All of these function can be called in any blueprint.
 
-   ## `UpdateTeam`
-
    ## `GetTeams`
+   Return all teams informations 
+   *`Name`
+   *`Color`
+   *`Lifetime`
+   *`Icons`
 
    ## `GetMyTeam`
+   Return My team informations
+   *`Name`
+   *`Color`
+   *`Lifetime`
+   *`Icons`
 
    ## `GetMemberIcon`
-
-   ## `GetMyIcon`
+   Return the icon of member'id in my team
    
 ---
 Server Only 
