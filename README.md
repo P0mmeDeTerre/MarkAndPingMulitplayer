@@ -327,14 +327,14 @@ Server Only
    *`Lifetime` : Ping lifetime
    *`PlayerId` : Player Id 
    *`FromTeamName` : Ping from team name
-   *`TeamName` : Team name (on wich team you want the ping to be visible)
+   *`TeamName` : Team name (the team on which you want the ping to be visible)
 
    ## `ServerRemovePingOnTeam`
    Remove ping from any team to any team. the ping will be hidden for all player of the choosen team (TeamName)
 
    *`PlayerId` : Player Id 
    *`FromTeamName` : Ping from team name
-   *`TeamName` : Team name (on wich team you want the ping to be hidden)
+   *`TeamName` : Team name (the team on which you want the ping to be hidden)
 
    ## `ServerPingOnTeam`
    Ping from any team to all teams.
@@ -350,4 +350,28 @@ Server Only
    *`PlayerId` : Player Id 
    *`FromTeamName` : Ping from team name
 
+   ## `ServerMarkOnTeam`
+   Mark an actor on a specific team.
+
+   *`Actor` : Actor with a `MarkedComponent`
+   *`Color` : Color of the mark
+   *`TeamName` : Team name (the team on which you want the mark to be visible)
+
+      ## `ServerRemoveMarkOnTeam`
+  Remove a marked actor on a specific team.
+
+   *`Actor` : Actor with a `MarkedComponent`
+   *`TeamName` : Team name (the team on which you want the mark to be hidden)
+
+   ## `ServerMarkOnAllTeam`
+   Mark an actor on all teams
+
+   *`Actor` : Actor with a `MarkedComponent`
+   *`Color` : Color of the mark
+
+   ## `ServerRemoveMarkOnAllTeam`
+   Remove a marked actor on all teams
+
+   *`Actor` : Actor with a `MarkedComponent`
+   
 </details>
