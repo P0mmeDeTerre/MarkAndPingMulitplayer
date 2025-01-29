@@ -1,7 +1,9 @@
 ![image](https://github.com/user-attachments/assets/7596dfc0-5b06-4b92-b7aa-8286927fac81)# MarkAndPingMulitplayer
 
+<details>
+   <summary>Mark Team component</summary>
 
-## Mark Team Component
+
 
 A `Mark Team Component` must be used in a `GameMode`
 To add the component, click the `Add` button on the `Components` window in your gamemode.
@@ -60,6 +62,8 @@ This material is only used for your own ping. If you want to change all material
 
  * `Texture` : Texture Parameter
  * `Color` : Vector Parameter
+
+</details>
 
 ## Mark Component
 This component is used to send a mark/ping to the server.
