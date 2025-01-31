@@ -142,6 +142,10 @@ Set new value for `UseTeamPingColor` and force update on pings
 #### `UpdatePingWidgetTeamColor`
 Set new value for `UseTeamMarkColor` and force update on marks
 
+#### `Clear Widgets`
+* `Type` : Ping, Mark or Both
+Clear all widgets of type (only for the current player, if you want to clear for all players, see `Global Functions`)
+
 #### `UpdateSettings`
 Update settings on player controller's widget and all other ping widgets
    * `Offset` : Offset of the widget
@@ -289,10 +293,12 @@ Return settings
    ![image](https://github.com/user-attachments/assets/7a5c8824-19db-4c60-a122-421db2fffde7)
 
 
-   #### Event
-   `OnPingEvent` : Called when ping or mark.
+   #### Events
+   `OnPingEvent` : Called when player ping
+   `OnMarkEvent` : Called when player mark
 
-   ![image](https://github.com/user-attachments/assets/2def8e75-aee0-4f8c-97d5-7d831f2be0a5)
+![image](https://github.com/user-attachments/assets/e558e544-db3e-4c8a-b31b-2a017f0f92b5)
+
 
 
 </details>
