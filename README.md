@@ -1,6 +1,6 @@
 # MarkAndPingMulitplayer
 
-<p style="color: red;"> Due to an unreal bug. the 5.5 Version can have issues when runned in Listen Server. The client (acting like a server) may not see some of widget components</p>
+:red_circle: Due to an unreal bug. the 5.5 Version can have issues when runned in Listen Server. The client (acting like a server) may not see some of widget components
 
 
 <details>
