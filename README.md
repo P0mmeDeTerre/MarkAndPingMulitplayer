@@ -1,7 +1,12 @@
 # MarkAndPingMulitplayer
 
-:red_circle: Due to an unreal bug. the 5.5 Version can have issues when runned in Listen Server. The client (acting like a server) may not see some of widget components
+:red_circle: Due to a bug in Unreal, version 5.5 may have issues when run on a Listen Server. The client (acting as the server) might not be able to see some widget components.
 
+This bug has already been reported by users on Reddit and the Unreal forum:
+
+https://forums.unrealengine.com/t/widget-components-using-screen-space-do-not-render-client-widget-blueprints-on-the-server/2195380
+https://www.reddit.com/r/unrealengine/comments/1hbcdlf/widget_components_using_screen_space_do_not/?rdt=48599
+https://forums.unrealengine.com/t/widget-component-set-to-screen-space-does-not-render-for-listen-server-but-renders-for-clients/2156399
 
 <details>
    <summary>Mark Team component</summary>
