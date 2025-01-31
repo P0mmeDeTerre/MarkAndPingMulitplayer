@@ -144,6 +144,7 @@ Set new value for `UseTeamMarkColor` and force update on marks
 
 #### `Clear Widgets`
 * `Type` : Ping, Mark or Both
+
 Clear all widgets of type (only for the current player, if you want to clear for all players, see `Global Functions`)
 
 #### `UpdateSettings`
