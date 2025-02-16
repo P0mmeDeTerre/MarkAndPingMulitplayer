@@ -389,13 +389,13 @@ Server Only
    *`Actor` : Actor with a `MarkedComponent`
    *`TeamName` : Team name (the team on which you want the mark to be hidden)
 
-   ## `ServerMarkOnAllTeam`
+   ## `ServerMarkOnAllTeams`
    Mark an actor on all teams
 
    *`Actor` : Actor with a `MarkedComponent`
    *`Color` : Color of the mark
 
-   ## `ServerRemoveMarkOnAllTeam`
+   ## `ServerRemoveMarkOnAllTeams`
    Remove a marked actor on all teams
 
    *`Actor` : Actor with a `MarkedComponent`
