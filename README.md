@@ -362,7 +362,7 @@ Server Only
    *`FromTeamName` : Ping from team name
    *`TeamName` : Team name (the team on which you want the ping to be hidden)
 
-   ## `ServerPingOnTeam`
+   ## `ServerPingOnAllTeams`
    Ping from any team to all teams.
 
    *`Location` : Ping location
@@ -370,7 +370,7 @@ Server Only
    *`PlayerId` : Player Id 
    *`FromTeamName` : Ping from team name
 
-   ## `ServerRemovePingOnTeam`
+   ## `ServerRemovePingOnAllTeams`
    Remove ping from any team to all teams.
 
    *`PlayerId` : Player Id 
