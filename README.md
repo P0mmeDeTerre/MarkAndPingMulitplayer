@@ -5,8 +5,12 @@
 This bug has already been reported by users on Reddit and the Unreal forum:
 
 https://forums.unrealengine.com/t/widget-components-using-screen-space-do-not-render-client-widget-blueprints-on-the-server/2195380
+
 https://www.reddit.com/r/unrealengine/comments/1hbcdlf/widget_components_using_screen_space_do_not/?rdt=48599
+
 https://forums.unrealengine.com/t/widget-component-set-to-screen-space-does-not-render-for-listen-server-but-renders-for-clients/2156399
+
+https://forums.unrealengine.com/t/ue5-5-widget-screen-multiplayer-doesnt-work/2124759
 
 <details>
    <summary>Mark Team component</summary>
