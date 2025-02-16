@@ -1,6 +1,6 @@
 # MarkAndPingMulitplayer
 
-:red_circle: Due to a bug in Unreal, version 5.5 may have issues when run on a *Listen Server* only. The client (acting as the server) might not be able to see some widget components.
+:red_circle: Due to a bug in Unreal, version 5.5 may have issues when run on a *Listen Server* only. The host might not be able to see some widget components other clients are fine.
 
 This bug has already been reported by users on Reddit and the Unreal forum:
 
