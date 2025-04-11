@@ -1,0 +1,27 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "MarkAndPingMultiplayer",
+	"Description": "",
+	"Category": "Code Plugins",
+	"CreatedBy": "Ryckbosch Arthur",
+	"CreatedByURL": "",
+	"DocsURL": "https://github.com/P0mmeDeTerre/MarkAndPingMulitplayer/wiki",
+	"FabURL": "com.epicgames.launcher://ue/Fab/product/cd55ace1-2f72-4a22-b3f0-2dd1d4371b44",
+	"SupportURL": "",
+	"EngineVersion": "5.5.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "MarkAndPingMultiplayer",
+			"Type": "Runtime",
+			"LoadingPhase": "PreLoadingScreen",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac"
+			]
+		}
+	]
+}
